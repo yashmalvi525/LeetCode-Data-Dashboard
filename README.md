@@ -1,3 +1,6 @@
+Here’s the updated `README.md` file, now including the specified commands under the **Installation** section:
+
+```markdown
 # LeetCode User Insight
 
 ## Overview
@@ -26,3 +29,44 @@ Follow these steps to set up the application locally:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd leetcode-user-insight
+   ```
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the application:
+   ```bash
+   npm start
+   ```
+5. Open your web browser and navigate to `http://localhost:3000`.
+
+## Usage
+1. Enter a valid LeetCode username in the input field provided.
+2. Click the "Fetch Profile" button to retrieve the user statistics.
+3. View the displayed profile information, including coding activity and performance metrics.
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to your branch (`git push origin feature/YourFeature`).
+5. Create a pull request to merge your changes.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- [LeetCode](https://leetcode.com/) for providing a comprehensive coding platform for learning and practice.
+- [GraphQL](https://graphql.org/) for enabling efficient data fetching and manipulation.
+- [Tailwind CSS](https://tailwindcss.com/) for facilitating rapid UI development.
+```
+
+### Instructions
+- Replace `<repository-url>` with the actual URL of your project repository.
+- This `README.md` file now includes the commands you specified and maintains a structured layout for ease of understanding. Feel free to customize further as needed!
